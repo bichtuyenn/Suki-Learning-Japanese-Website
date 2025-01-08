@@ -1,7 +1,8 @@
 import Home from "./pages/Home";
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Practice from "./pages/Practice";
+import QuizPage from "./pages/QuizPage";
+import Flashcard from "./components/Flashcard";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Router>
           <Routes>
                 <Route path="/" element={<Home/>} />
-                <Route path="/practice" element={<Practice/>} />
+                <Route path="/quiz" element={<QuizPage/>} />
+                <Route path="/flashcard" element={<Flashcard/>} />
           </Routes>
       </Router>
     </main>

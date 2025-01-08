@@ -1,0 +1,59 @@
+#flashcard {
+    display: flex;
+    max-width: 1000px;
+    width: 60%;
+    height: auto;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background-color: #55AD9B;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.menu-topics {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    width: 92%;
+    gap: 15px;
+}
+
+.topic-flashcard {
+    flex: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.btn-select {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    gap: 15px;
+    margin: 10px
+}
+.btn-select:hover{
+    background-color: #D8EFD3; 
+    transform: scale(1.05); 
+    color: #55AD9B;
+    font-weight: bolder;
+    border: 2px solid #FFFFFF ;
+    box-shadow: 2px 2px;
+}
+.topic-content {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: start;
+}
+.topic-title{
+    font-size: 20px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    max-width: calc(17ch); 
+}

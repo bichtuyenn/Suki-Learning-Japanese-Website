@@ -8,9 +8,9 @@ export default function Header() {
             <img src={logoImg} className='header-logo' />
             <ul className='header-menu'>
                 <li className='nav-item active'><a href='/'>Home</a></li>
-                <li className='nav-item'><a href='/education'>Education</a></li>
-                <li className='nav-item'><a href='practice'>Practice</a></li>
-                <li className='nav-item'><a href='/about'>About Suki</a></li>
+                <li className='nav-item'><a href='/flashcard'>Flashcard</a></li>
+                <li className='nav-item'><a href='quiz'>Quiz</a></li>
+                <li className='nav-item'><a href='/dictation'>Dictation</a></li>
             </ul>
             <a className='header-login' href='/login'>Login</a>
         </div>      

@@ -1,5 +1,6 @@
 import * as types from './types'
 
+//quiz
 export const handleSelectQuiz = (quiz) => ({
     type: types.HANDLE_SELECT_QUIZ,
     payload: quiz,
@@ -19,4 +20,17 @@ export const handleNextQuestion = () => ({
 })
 export const handleSubmitAll= () => ({
     type: types.HANDLE_SUBMIT_ALL,
+})
+
+
+//flashcard
+export const handleSelectTopic= (topic) => ({
+    type: types.HANDLE_SELECT_FLASHCARD_TOPIC,
+    payload: topic,
+})
+export const handlePreviousFlashcard= () => ({
+    type: types.HANDLE_PREVIOUS_FLASHCARD ,
+})
+export const handleNextFlashcard = () => ({
+    type: types.HANDLE_NEXT_FLASHCARD,
 })

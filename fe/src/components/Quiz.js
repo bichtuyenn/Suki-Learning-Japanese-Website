@@ -43,7 +43,7 @@ export default function Quiz() {
                   </li>
                 ))}
               </ul>
-              <button className='btn btn-done'><a href='/practice'>Done</a></button>
+              <button className='btn btn-done'><a href='/quiz'>Done</a></button>
             </div>
           ) : (
             <>
