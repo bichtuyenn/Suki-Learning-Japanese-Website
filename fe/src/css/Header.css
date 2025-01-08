@@ -1,0 +1,48 @@
+#header{
+    position: fixed;
+    background-color: #55AD9B;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+     width: 80%;
+     margin: 0 auto;
+     padding: 0 10px;
+}
+#header a{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header-menu li {
+    display: block;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+.header-logo{
+    width: 120px;
+    height: 50px;
+
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.header-login{
+    text-align: center;
+    align-content: center;
+
+}

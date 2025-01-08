@@ -1,0 +1,28 @@
+-- github ------
+git init khởi tạo file .git
+git remote add origin (link-remote) liên kết giữa file .git và github.
+git add . dùng để add tất cả các file có thay đổi
+git commit -m "message" gán các message trước khi push lên github
+git push origin "branch" push lên nhánh
+git checkout -b " tên branch" tạo nhánh
+git switch "tên nhánh" chuyển tới nhánh khác
+
+----------------Trước khi push----------
+git pull
+git add .
+git commit -m "message"
+git push 
+
+----------Lệnh docker-----------
+
+docker compose up --build //build một image
+docker ps //dùng để check những image nào đang chạy
+docker exec -it "id image" sh //log vào máy chủ ubuntu
+docker logs "id image" //check logs lỗi trong máy chủ
+
+
+-----------giải thích file---------------
+docker-compose.yaml //quản lí và run tất cả các image 
+Dockerfile //cấu trúc và khởi tạo một image
+
+
