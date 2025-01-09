@@ -28,6 +28,9 @@ export const handleSelectTopic= (topic) => ({
     type: types.HANDLE_SELECT_FLASHCARD_TOPIC,
     payload: topic,
 })
+export const handleShowFlashcard= () => ({
+    type: types.HANDLE_SHOW_BOX_CONTENT ,
+})
 export const handlePreviousFlashcard= () => ({
     type: types.HANDLE_PREVIOUS_FLASHCARD ,
 })

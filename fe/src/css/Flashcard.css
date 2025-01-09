@@ -1,14 +1,16 @@
 #flashcard {
     display: flex;
+    position: relative;
     max-width: 1000px;
     width: 60%;
     height: auto;
     padding: 20px 10px;
     flex-wrap: wrap;
-    background-color: #55AD9B;
+    background-color: #41B3A2;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 100px;
 }
 
 .menu-topics {
@@ -38,9 +40,9 @@
     margin: 10px
 }
 .btn-select:hover{
-    background-color: #D8EFD3; 
+    /* background-color: #D8EFD3;  */
     transform: scale(1.05); 
-    color: #55AD9B;
+    color: #41B3A2;
     font-weight: bolder;
     border: 2px solid #FFFFFF ;
     box-shadow: 2px 2px;
@@ -56,4 +58,97 @@
     white-space: nowrap; 
     text-overflow: ellipsis; 
     max-width: calc(17ch); 
+}
+
+/* Flashcard */
+.flashcard-container{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.flashcard_box_title{
+    display: flex;
+    background-color: #41B3A2;
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 12%;
+    border-bottom-right-radius: 40px 40px;
+    border-bottom-left-radius: 40px 40px;
+    justify-content: center;
+    align-items: center;
+}
+.flashcard_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.card{
+    width: 600px;
+    height: 340px;
+    
+}
+.btn-flashcard{
+    width: 100%;
+    height: 100%;
+    font-size: 10rem;
+    font-weight: 520;
+    border-radius: 20px;
+    border: 5px solid #41B3A2;
+    cursor: pointer;
+}
+.title-h1,
+.title-h2,
+.title-h3,
+.title-h4,
+.title-h5 {
+  display: block; 
+  word-wrap: break-word; 
+  margin: 5px 0; 
+  font-size: 17px; 
+  margin-bottom: 10px;
+}
+.title-h1{
+    font-size: 30px;
+}
+.title-h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.title-h3{
+    font-size: 20px;
+}
+/* Flashcard button */
+.option-slide{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.option-slide__previous button{
+    background-color: #41B3A2;
+    border: none;
+}
+.option-slide__next button{
+    background-color: #41B3A2;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.img {
+    width: 40px;
+    height: 40px;
+}
+.option-slide__current .title{
+    font-size: 26px;
 }
